@@ -12,7 +12,7 @@ public class RunTest21
 		Thread t = new Thread(new Worker());
 		t.start();
 		
-		System.out.println("ended thread (maybe)");
+		System.out.println("ended thread (maybe 1)");
 		
 		long end = System.currentTimeMillis();		
 		System.out.println("ended in "+(end-start)/1000.0+" seconds");
